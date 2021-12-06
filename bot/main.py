@@ -50,4 +50,4 @@ async def candese(ctx):
 async def suggest(ctx):
     await ctx.send("DM @qwert123qpei#6039 for command suggestions.\nYour suggestion should be like this:\n     command: <command>\n     use: <use>")
 
-bot.run(os.environ(DISCORD_TOKEN))
+bot.run(os.environ("DISCORD_TOKEN"))
